@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>NglView</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    </head>
-    <body>
-        <div class="container-fluid">
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                  <span class="navbar-brand mb-0 h1">NglView Test</span>
-                </div>
-            </nav>
-        </div>
-        <div class="container text-center">
-            <div class="row gy-5">
-                <div class="col"></div>
-                <div class="col">
-                    <div class="p-3">
-                        <form method="POST" enctype="multipart/form-data">
-                            <div class="input-group mb-3">
-                                <input type="file" class="form-control" id="inputGroupFile02" name="file">
-                                <input type="submit" class="input-group-text" value="Upload">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col"></div>
-            </div>
-            <div class="row gy-5">
-                <div class="col"></div>
-                <div class="col">
-                    {% block base_content %}
+<head>
+    <meta charset="utf-8">
+    <title>NglView</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
-                    {% endblock %}
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">NglView Test</span>
+            </div>
+        </nav>
+    </div>
+    <div class="container text-center">
+        <div class="row gy-5">
+            <div class="col"></div>
+            <div class="col">
+                <div class="p-3">
+                    <form method="POST" enctype="multipart/form-data">
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="inputGroupFile02" name="file">
+                            <input type="submit" class="input-group-text" value="Upload">
+                        </div>
+                    </form>
                 </div>
-                <div class="col"></div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row gy-5">
+            <div class="col">
+                {% block base_content_one %}
+
+                {% endblock %}
+            </div>
+            <div class="col">
+                {% block base_content_two %}
+
+                {% endblock %}
             </div>
         </div>
-    </body>
+    </div>
+    <div class="container text-center">
+        <div class="row gy-5">
+            <div class="col">
+                {% block base_cbutton %}
+
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
