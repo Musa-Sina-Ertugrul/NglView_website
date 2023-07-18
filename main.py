@@ -15,23 +15,27 @@ socketio = SocketIO(app)
 @app.route("/", methods=["GET","POST"])
 async def index():
     file_path_left = ""
+    
     os.system("rm -rf templates/mutation_templates")
-    os.mkdir("templates/mutation_templates")
+    os.system("rm -rf uploads")
     if "file" in request.files:
+        os.mkdir("templates/mutation_templates")
+        os.mkdir("uploads")
         file = request.files["file"]
         file.save(f"uploads/{file.filename}")
         if ".pdb" in file.filename:
             view_pdb = nglview.show_structure_file(f"uploads/{file.filename}")
             background = request.form.get("Background")
-            if background == "Backgorund":
+            if background == "Background":
                 view_pdb.background = "black"
             file_path_left=f"templates/mutation_templates/{file.filename[:-4]}.html"
             session["file_path"] = f"{file.filename[:-4]}.html"
             session['file_name'] = f"{file.filename[:-4]}"
-            """mutation_name = file.filename[:-4].split("_")[-1]
+            mutation_name = file.filename[:-4].split("_")[-1]
             mutation_name = mutation_name[1:-1]
             protein_name = mutation_name[0]
-            residue_number = mutation_name[1:]"""
+            residue_number = mutation_name[1:]
+            residue_number = int(residue_number)
             """view_pdb_right = nglview.show_structure_file(f"uploads/{file.filename}")
             file_path_right=f"templates/mutation_no/{file.filename[:-4]}.html"
             nglview.write_html(file_path_right,[view_pdb_right])"""
@@ -39,16 +43,14 @@ async def index():
             await run_maxit(file)
             is_File_generated = True
             while(is_File_generated):
-                try:
-                    is_File_generated = not (os.path.exists(f"uploads/{file.filename[:-4]}.cif"))
-                except:
-                    continue
+                is_File_generated = not (os.path.exists(f"uploads/{file.filename[:-4]}.cif"))
             await run_json(file)
             residue_dict = {}
             residue_list = []
             cleared_list = []
             select_numbers = set([])
             numbers_list = []
+            
             is_File_generated = True
             while(is_File_generated):
                 try:
@@ -67,9 +69,9 @@ async def index():
                         
                         #label_comp_id = ""
                         for seq in residue_list:
-                            if seq["bgn"]["auth_seq_id"] == 17 or seq["end"]["auth_seq_id"] == 17:
+                            if seq["bgn"]["auth_seq_id"] == residue_number or seq["end"]["auth_seq_id"] == residue_number:
 
-                                if seq["bgn"]["auth_seq_id"] == 17:
+                                if seq["bgn"]["auth_seq_id"] == residue_number:
                                     label_comp_id = seq["bgn"]["label_comp_id"]
                                 else:
                                     label_comp_id = seq["end"]["label_comp_id"]
@@ -88,20 +90,20 @@ async def index():
                                 if bonds_with_Carbon == "Bonds_with_Carbon":
                                     if (seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']) not in seq_ids_set and (
                                         seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']) not in seq_ids_set and (
-                                        seq['end']['auth_seq_id'] == 17 or seq['bgn']['auth_seq_id'] == 17):
+                                        seq['end']['auth_seq_id'] == residue_number or seq['bgn']['auth_seq_id'] == residue_number):
                                         view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
                                                                                     ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
                                         seq_ids_set.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
                                         seq_ids_set.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
 
                         if width and height:
-                            view_pdb._set_size(int(width),int(height))
+                            view_pdb._set_size(width,height)
                         elif width:
-                            view_pdb._set_size(int(width),1000)
+                            view_pdb._set_size(width,"1000px")
                         elif height:
-                            view_pdb._set_size(1000,int(height))
+                            view_pdb._set_size("1000px",height)
                         else:
-                            view_pdb._set_size(1000,1000)
+                            view_pdb._set_size("1000px","1000px")
                         
 
                         if bool(spin):
@@ -109,12 +111,12 @@ async def index():
 
                         numbers_list = list(select_numbers)
                         seq_id = 0
+                        view_pdb.remove_class(className="text")
                         for seq in numbers_list:
                             view_pdb.add_representation(atom_representation,selection=f"{seq[0]}")
                             if names == "Names":
                                 if seq_id != seq[0]:
                                     view_pdb.add_representation("label",selection=f"{seq[0]}.C",labelType = "residue name")
-                                    view_pdb
                                     seq_id = seq[0]
                         view_pdb.add_representation(pro_representation)
                     is_File_generated = False
@@ -132,7 +134,7 @@ async def index():
                     continue
             nglview.write_html(f"templates/mutation_templates/{file.filename[:-4]}.html",[view_json])
             """
-
+            """
             is_File_generated = True
             while(is_File_generated):
                 is_File_generated = (os.path.exists(f"uploads/{file.filename}"))
@@ -157,7 +159,7 @@ async def index():
                     is_File_generated = (os.path.exists(f"templates/mutation_templates/{file.filename[:-4]}.json"))
                 except:
                     continue
-            
+            """
             nglview.write_html(file_path_left,[view_pdb])
         else:
             return redirect(url_for("base"))
@@ -202,6 +204,7 @@ def after_upload():
     """
 @app.route("/ngl_view_pdb",methods=["GET","POST"])
 def ngl_view_pdb():
+    """
     is_File_generated = True
     while(is_File_generated):
         is_File_generated = (os.path.exists(f"uploads/{session['file_name']}.cif"))
@@ -210,7 +213,7 @@ def ngl_view_pdb():
             is_File_generated = (os.path.exists(f"uploads/{session['file_name']}.cif"))
         except:
             continue
-        
+        """
     if session["file_path"]:
         return render_template(f"mutation_templates/{session['file_path']}")
     return render_template("")
