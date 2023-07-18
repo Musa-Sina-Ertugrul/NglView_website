@@ -48,7 +48,7 @@ async def index():
                     is_File_generated = False
                 except:
                     continue
-            
+            time.sleep(1)
             with open(f"templates/mutation_templates/{file.filename[:-4]}.json","r") as json_file:
                 residue_dict = json.load(json_file)
                 residue_list = list(residue_dict)
