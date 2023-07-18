@@ -65,10 +65,13 @@ async def index():
                             seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
                             continue
 
-                        """if (seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']) not in seq_ids and (
-                            seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']) not in seq_ids:
+                        if (seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']) not in seq_ids and (
+                            seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']) not in seq_ids and (
+                            seq['end']['auth_seq_id'] == 17 or seq['bgn']['auth_seq_id'] == 17):
                             view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
-                                                                          ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])"""
+                                                                          ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
+                            seq_ids.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
+                            seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
                         
                 numbers_list = list(select_numbers)
                 for seq in numbers_list:
