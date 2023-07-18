@@ -15,6 +15,8 @@ socketio = SocketIO(app)
 @app.route("/", methods=["GET","POST"])
 async def index():
     file_path_left = ""
+    os.system("rm -rf templates/mutation_templates")
+    os.mkdir("templates/mutation_templates")
     if "file" in request.files:
         file = request.files["file"]
         file.save(f"uploads/{file.filename}")
@@ -133,6 +135,7 @@ async def index():
 
             is_File_generated = True
             while(is_File_generated):
+                is_File_generated = (os.path.exists(f"uploads/{file.filename}"))
                 try:
                     os.remove(f"uploads/{file.filename}")
                     is_File_generated = (os.path.exists(f"uploads/{file.filename}"))
@@ -140,6 +143,7 @@ async def index():
                     continue
             is_File_generated = True
             while(is_File_generated):
+                is_File_generated = (os.path.exists(f"uploads/{session['file_name']}.cif"))
                 try:
                     os.remove(f"uploads/{file.filename[:-4]}.cif")
                     is_File_generated = (os.path.exists(f"uploads/{file.filename[:-4]}.cif"))
@@ -147,6 +151,7 @@ async def index():
                     continue
             is_File_generated = True
             while(is_File_generated):
+                is_File_generated = (os.path.exists(f"templates/mutation_templates/{file.filename[:-4]}.json"))
                 try:
                     os.remove(f"templates/mutation_templates/{file.filename[:-4]}.json")
                     is_File_generated = (os.path.exists(f"templates/mutation_templates/{file.filename[:-4]}.json"))
