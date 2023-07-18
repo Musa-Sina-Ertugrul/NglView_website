@@ -30,33 +30,56 @@
                             <input type="file" class="form-control" id="inputGroupFile02" name="file">
                             <input type="submit" class="input-group-text" value="Upload">
                         </div>
+                        <br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Bonds_with_Carbon"
+                                name="Bonds_with_Carbon" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Bonds with Carbon
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Bonds_without_Carbon"
+                                name="Bonds_without_Carbon" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Bonds without Carbon
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Names" name="Names"
+                                id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Names
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Background" name="Background"
+                                id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Black Background
+                            </label>
+                        </div>
+                        <br>
+                        <select class="form-select" aria-label="Default select example" name="atom_representation">
+                            <option value="ball+stick">Representation</option>
+                            <option value="hyperball">hyperball</option>
+                            <option value="line">line</option>
+                            <option value="ball+stick">ball+stick</option>
+                            <option value="licorice">licorice</option>
+                        </select>
+                        <br>
+                        <select class="form-select" aria-label="Default select example" name="pro_representation">
+                            <option value="ribbon">Protein representation</option>
+                            <option value="validation">validation</option>
+                            <option value="unitcell">unitcell</option>
+                            <option value="tube">tube</option>
+                            <option value="trace">trace</option>
+                            <option value="ribbon">ribbon</option>
+                        </select>
                     </form>
                 </div>
             </div>
             <div class="col"></div>
-        </div>
-    </div>
-    <div class="container text-center">
-        <div class="row gy-5">
-            <div class="col">
-                {% block base_content_one %}
-
-                {% endblock %}
-            </div>
-            <div class="col">
-                {% block base_content_two %}
-
-                {% endblock %}
-            </div>
-        </div>
-    </div>
-    <div class="container text-center">
-        <div class="row gy-5">
-            <div class="col">
-                {% block base_cbutton %}
-
-                {% endblock %}
-            </div>
         </div>
     </div>
 </body>

@@ -18,13 +18,16 @@ async def index():
         file.save(f"uploads/{file.filename}")
         if ".pdb" in file.filename:
             view_pdb = nglview.show_structure_file(f"uploads/{file.filename}")
-            view_pdb.background = "black"
+            background = request.form.get("Background")
+            if background == "Backgorund":
+                view_pdb.background = "black"
             file_path_left=f"templates/mutation_templates/{file.filename[:-4]}.html"
-
             session["file_path"] = f"{file.filename[:-4]}.html"
+
             """view_pdb_right = nglview.show_structure_file(f"uploads/{file.filename}")
             file_path_right=f"templates/mutation_no/{file.filename[:-4]}.html"
             nglview.write_html(file_path_right,[view_pdb_right])"""
+
             await run_maxit(file)
             is_File_generated = True
             while(is_File_generated):
@@ -53,32 +56,42 @@ async def index():
                 residue_dict = json.load(json_file)
                 residue_list = list(residue_dict)
                 seq_ids = set([])
+                atom_representation = request.form.get("atom_representation")
+                names = request.form.get('Names')
+                bonds_without_Carbon = request.form.get("Bonds_without_Carbon")
+                bonds_with_Carbon = request.form.get("Bonds_with_Carbon")
+                pro_representation = request.form.get("pro_representation")
                 for seq in residue_list:
                     if seq["bgn"]["auth_seq_id"] == 17 or seq["end"]["auth_seq_id"] == 17:
                         cleared_list.append(seq)
                         select_numbers.add((seq["bgn"]["auth_seq_id"],seq["bgn"]["label_comp_id"]))
                         select_numbers.add((seq["end"]["auth_seq_id"],seq["end"]["label_comp_id"]))
-                        if 'C' not in seq['bgn']['auth_atom_id'] and 'C' not in seq['end']['auth_atom_id']:
-                            view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
-                                                                          ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
-                            seq_ids.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
-                            seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
-                            continue
+                        if bonds_without_Carbon == "Bonds_without_Carbon":
+                            if 'C' not in seq['bgn']['auth_atom_id'] and 'C' not in seq['end']['auth_atom_id']:
+                                view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
+                                                                            ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
+                                seq_ids.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
+                                seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
+                                continue
 
-                        if (seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']) not in seq_ids and (
-                            seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']) not in seq_ids and (
-                            seq['end']['auth_seq_id'] == 17 or seq['bgn']['auth_seq_id'] == 17):
-                            view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
-                                                                          ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
-                            seq_ids.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
-                            seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
+                        if bonds_with_Carbon == "Bonds_with_Carbon":
+                            if (seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']) not in seq_ids and (
+                                seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']) not in seq_ids and (
+                                seq['end']['auth_seq_id'] == 17 or seq['bgn']['auth_seq_id'] == 17):
+                                view_pdb.add_representation("distance",atomPair=[[f"{seq['bgn']['auth_seq_id']}.{seq['bgn']['auth_atom_id']}"
+                                                                            ,f"{seq['end']['auth_seq_id']}.{seq['end']['auth_atom_id']}"]])
+                                seq_ids.add((seq['bgn']['auth_seq_id'],seq['end']['auth_seq_id']))
+                                seq_ids.add((seq['end']['auth_seq_id'],seq['bgn']['auth_seq_id']))
                         
                 numbers_list = list(select_numbers)
+                seq_id = 0
                 for seq in numbers_list:
-                    view_pdb.add_representation("ball+stick",selection=f"{seq[0]}")
-                    """if seq_id != seq[0]:
-                        view_pdb.add_representation("label",selection=f"{seq[0]}", text = f"{seq[1]}")
-                        seq_id = seq[0]"""
+                    view_pdb.add_representation(atom_representation,selection=f"{seq[0]}")
+                    if names == "Names":
+                        if seq_id != seq[0]:
+                            view_pdb.add_representation("label",selection=f"{seq[0]}.C",labelType = "residue name")
+                            seq_id = seq[0]
+                view_pdb.add_representation(pro_representation)
                     
             """
             is_File_generated = True
