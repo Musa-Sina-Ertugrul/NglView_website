@@ -17,13 +17,13 @@
   "version_major": 2,
   "version_minor": 0,
   "state": {
-    "fcdfe340605f41a98a2e9b25211942f7": {
+    "eef139ba93d14bcbaff60c146f1fce16": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "84821d6ea0424df58a7cd2db7c9bbde8": {
+    "da0c3352547c44ab8283c1a99cac3b4a": {
       "model_name": "ColormakerRegistryModel",
       "model_module": "nglview-js-widgets",
       "model_module_version": "3.0.6",
@@ -31,25 +31,25 @@
         "_dom_classes": [],
         "_msg_ar": [],
         "_msg_q": [],
-        "layout": "IPY_MODEL_fcdfe340605f41a98a2e9b25211942f7"
+        "layout": "IPY_MODEL_eef139ba93d14bcbaff60c146f1fce16"
       }
     },
-    "3af1028e5a654637ab19652310de1f3a": {
+    "fc256d28a6f84e5da38377b76cb5192e": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "f909d61b89dd48e486c942b86ef37169": {
+    "53caf296773e4f829ff5b77ad644e8b1": {
       "model_name": "NGLModel",
       "model_module": "nglview-js-widgets",
       "model_module_version": "3.0.6",
       "state": {
         "_camera_orientation": [],
         "_dom_classes": [],
-        "_ibtn_fullscreen": "IPY_MODEL_c46d979ddb874f249c8da7e7e1d8c5fe",
+        "_ibtn_fullscreen": "IPY_MODEL_801d3ac0cfa148b49f32575574fa6cad",
         "_igui": null,
-        "_iplayer": "IPY_MODEL_fc512fd8d766411fbf4b155319744e3d",
+        "_iplayer": "IPY_MODEL_f5a9440eb25045d0ad5361a3e304a2db",
         "_ngl_color_dict": {},
         "_ngl_coordinate_resource": {},
         "_ngl_full_stage_parameters": {},
@@ -72,29 +72,6 @@
             }
           },
           {
-            "component_index": 0,
-            "target": "compList",
-            "type": "call_method",
-            "methodName": "removeAllRepresentations",
-            "reconstruc_color_scheme": false,
-            "args": [],
-            "kwargs": {}
-          },
-          {
-            "component_index": 0,
-            "target": "compList",
-            "type": "call_method",
-            "methodName": "addRepresentation",
-            "reconstruc_color_scheme": false,
-            "args": [
-              "cartoon"
-            ],
-            "kwargs": {
-              "sele": "protein",
-              "color": "residueindex"
-            }
-          },
-          {
             "target": "Stage",
             "type": "call_method",
             "methodName": "setParameters",
@@ -111,10 +88,67 @@
             "methodName": "addRepresentation",
             "reconstruc_color_scheme": false,
             "args": [
+              "distance"
+            ],
+            "kwargs": {
+              "sele": "all",
+              "atomPair": [
+                [
+                  "17.O",
+                  "72.N"
+                ]
+              ]
+            }
+          },
+          {
+            "component_index": 0,
+            "target": "compList",
+            "type": "call_method",
+            "methodName": "addRepresentation",
+            "reconstruc_color_scheme": false,
+            "args": [
+              "distance"
+            ],
+            "kwargs": {
+              "sele": "all",
+              "atomPair": [
+                [
+                  "17.O",
+                  "72.OE1"
+                ]
+              ]
+            }
+          },
+          {
+            "component_index": 0,
+            "target": "compList",
+            "type": "call_method",
+            "methodName": "addRepresentation",
+            "reconstruc_color_scheme": false,
+            "args": [
+              "distance"
+            ],
+            "kwargs": {
+              "sele": "all",
+              "atomPair": [
+                [
+                  "19.N",
+                  "17.O"
+                ]
+              ]
+            }
+          },
+          {
+            "component_index": 0,
+            "target": "compList",
+            "type": "call_method",
+            "methodName": "addRepresentation",
+            "reconstruc_color_scheme": false,
+            "args": [
               "ball+stick"
             ],
             "kwargs": {
-              "sele": "10-20"
+              "sele": "21"
             }
           },
           {
@@ -124,12 +158,10 @@
             "methodName": "addRepresentation",
             "reconstruc_color_scheme": false,
             "args": [
-              "label"
+              "ball+stick"
             ],
             "kwargs": {
-              "sele": "10-20",
-              "labelType": "residue name",
-              "antialias": true
+              "sele": "22"
             }
           },
           {
@@ -139,10 +171,36 @@
             "methodName": "addRepresentation",
             "reconstruc_color_scheme": false,
             "args": [
-              "line"
+              "ball+stick"
             ],
             "kwargs": {
-              "sele": "10-20"
+              "sele": "19"
+            }
+          },
+          {
+            "component_index": 0,
+            "target": "compList",
+            "type": "call_method",
+            "methodName": "addRepresentation",
+            "reconstruc_color_scheme": false,
+            "args": [
+              "ball+stick"
+            ],
+            "kwargs": {
+              "sele": "72"
+            }
+          },
+          {
+            "component_index": 0,
+            "target": "compList",
+            "type": "call_method",
+            "methodName": "addRepresentation",
+            "reconstruc_color_scheme": false,
+            "args": [
+              "ball+stick"
+            ],
+            "kwargs": {
+              "sele": "17"
             }
           }
         ],
@@ -156,152 +214,152 @@
         "_synced_model_ids": [],
         "_synced_repr_model_ids": [],
         "background": "black",
-        "layout": "IPY_MODEL_3af1028e5a654637ab19652310de1f3a",
+        "layout": "IPY_MODEL_fc256d28a6f84e5da38377b76cb5192e",
         "picked": {}
       }
     },
-    "a767df47d34e464587d1a63ea514125b": {
+    "737374b2ca45440484260c5a7f05a8e4": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "12743b2b56ae4da58b219334dc40113f": {
+    "f11c6f7eab14495789171365043dde01": {
       "model_name": "ImageModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "_dom_classes": [],
-        "layout": "IPY_MODEL_a767df47d34e464587d1a63ea514125b",
+        "layout": "IPY_MODEL_737374b2ca45440484260c5a7f05a8e4",
         "width": "900.0"
       }
     },
-    "4d3d86fd5a054e6a9b1c586bff40617d": {
+    "abe5ee42d89948a4a6f1460e111c1143": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "f554dd0d3d9a41c3a9e790480229c950": {
+    "f1a8f20f30304d2f85f79245117d8fc6": {
       "model_name": "DescriptionStyleModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "5c7d9a3fe9ab4b528a73e8a24cb1e4fa": {
+    "14a8d8c24c964cd2afa180935cb551f2": {
       "model_name": "PlayModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "_dom_classes": [],
-        "layout": "IPY_MODEL_4d3d86fd5a054e6a9b1c586bff40617d",
+        "layout": "IPY_MODEL_abe5ee42d89948a4a6f1460e111c1143",
         "max": 0,
-        "style": "IPY_MODEL_f554dd0d3d9a41c3a9e790480229c950"
+        "style": "IPY_MODEL_f1a8f20f30304d2f85f79245117d8fc6"
       }
     },
-    "5aee852f9c394b4eb58fcd65d75bcd57": {
+    "5c54751a28d84be8ad7233e903d5e110": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "0bd09de096e440a2bae99d1116a03e5a": {
+    "18427297e7cc4239846cb0ee58a9fad3": {
       "model_name": "SliderStyleModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "f680eea6c60e4921b958a7e61eb8cd41": {
+    "33216cade7b74bc4b26d9b2e2fea9d00": {
       "model_name": "IntSliderModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "_dom_classes": [],
-        "layout": "IPY_MODEL_5aee852f9c394b4eb58fcd65d75bcd57",
+        "layout": "IPY_MODEL_5c54751a28d84be8ad7233e903d5e110",
         "max": 0,
-        "style": "IPY_MODEL_0bd09de096e440a2bae99d1116a03e5a"
+        "style": "IPY_MODEL_18427297e7cc4239846cb0ee58a9fad3"
       }
     },
-    "d9f144c0784a4cc193c555cfcf932706": {
+    "58d1cdb54a614288a45e3de7a6aa0640": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "fc512fd8d766411fbf4b155319744e3d": {
+    "f5a9440eb25045d0ad5361a3e304a2db": {
       "model_name": "HBoxModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "_dom_classes": [],
         "children": [
-          "IPY_MODEL_5c7d9a3fe9ab4b528a73e8a24cb1e4fa",
-          "IPY_MODEL_f680eea6c60e4921b958a7e61eb8cd41"
+          "IPY_MODEL_14a8d8c24c964cd2afa180935cb551f2",
+          "IPY_MODEL_33216cade7b74bc4b26d9b2e2fea9d00"
         ],
-        "layout": "IPY_MODEL_d9f144c0784a4cc193c555cfcf932706"
+        "layout": "IPY_MODEL_58d1cdb54a614288a45e3de7a6aa0640"
       }
     },
-    "944f0fd9e4c34f9f8720a8e7e534d8e9": {
+    "a2d4061d4c97495fa2635ff341f7e002": {
       "model_name": "LinkModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "source": [
-          "IPY_MODEL_5c7d9a3fe9ab4b528a73e8a24cb1e4fa",
+          "IPY_MODEL_14a8d8c24c964cd2afa180935cb551f2",
           "value"
         ],
         "target": [
-          "IPY_MODEL_f680eea6c60e4921b958a7e61eb8cd41",
+          "IPY_MODEL_33216cade7b74bc4b26d9b2e2fea9d00",
           "value"
         ]
       }
     },
-    "2f5e1a2774264a5397cb693a5b7b9614": {
+    "43c11ef8d9b44c1a9636d93222140b59": {
       "model_name": "LinkModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "source": [
-          "IPY_MODEL_5c7d9a3fe9ab4b528a73e8a24cb1e4fa",
+          "IPY_MODEL_14a8d8c24c964cd2afa180935cb551f2",
           "value"
         ],
         "target": [
-          "IPY_MODEL_f909d61b89dd48e486c942b86ef37169",
+          "IPY_MODEL_53caf296773e4f829ff5b77ad644e8b1",
           "frame"
         ]
       }
     },
-    "a4a96bf7da0845d68606e0688e0dd99d": {
+    "5d6dad8ac1fe4361ad22926994e522b5": {
       "model_name": "LinkModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "source": [
-          "IPY_MODEL_5c7d9a3fe9ab4b528a73e8a24cb1e4fa",
+          "IPY_MODEL_14a8d8c24c964cd2afa180935cb551f2",
           "max"
         ],
         "target": [
-          "IPY_MODEL_f909d61b89dd48e486c942b86ef37169",
+          "IPY_MODEL_53caf296773e4f829ff5b77ad644e8b1",
           "max_frame"
         ]
       }
     },
-    "eaf0eba5aa2b43c5bf84a0dc194be845": {
+    "56e57f7ebcfc4b709840acc56feaf49f": {
       "model_name": "LinkModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "source": [
-          "IPY_MODEL_f680eea6c60e4921b958a7e61eb8cd41",
+          "IPY_MODEL_33216cade7b74bc4b26d9b2e2fea9d00",
           "max"
         ],
         "target": [
-          "IPY_MODEL_f909d61b89dd48e486c942b86ef37169",
+          "IPY_MODEL_53caf296773e4f829ff5b77ad644e8b1",
           "max_frame"
         ]
       }
     },
-    "63575d56819b493db1ec89f5d9dc8a0a": {
+    "21dfade413cb4cb2b605e7768717709b": {
       "model_name": "LayoutModel",
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -309,31 +367,31 @@
         "width": "34px"
       }
     },
-    "e12a8a78d5444cdaba07d5604a53f0a6": {
+    "71f274102eda42a480f52d1db48480d1": {
       "model_name": "ButtonStyleModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {}
     },
-    "c46d979ddb874f249c8da7e7e1d8c5fe": {
+    "801d3ac0cfa148b49f32575574fa6cad": {
       "model_name": "ButtonModel",
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "state": {
         "_dom_classes": [],
         "icon": "compress",
-        "layout": "IPY_MODEL_63575d56819b493db1ec89f5d9dc8a0a",
-        "style": "IPY_MODEL_e12a8a78d5444cdaba07d5604a53f0a6"
+        "layout": "IPY_MODEL_21dfade413cb4cb2b605e7768717709b",
+        "style": "IPY_MODEL_71f274102eda42a480f52d1db48480d1"
       }
     }
   }
 }
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "84821d6ea0424df58a7cd2db7c9bbde8"}
+{"version_major": 2, "version_minor": 0, "model_id": "da0c3352547c44ab8283c1a99cac3b4a"}
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "f909d61b89dd48e486c942b86ef37169"}
+{"version_major": 2, "version_minor": 0, "model_id": "53caf296773e4f829ff5b77ad644e8b1"}
 </script>
 
 </body>
