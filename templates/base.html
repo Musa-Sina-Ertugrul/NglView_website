@@ -26,10 +26,13 @@
             <div class="col">
                 <div class="p-3">
                     <form method="POST" enctype="multipart/form-data">
-                        <div class="input-group mb-3">
+                        <!--
+                            <div class="input-group mb-3">
                             <input type="file" class="form-control" id="inputGroupFile02" name="file">
-                            <input type="submit" class="input-group-text" value="Upload">
+                            
                         </div>
+                        -->
+                        
                         <br>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="Bonds_with_Carbon"
@@ -103,6 +106,21 @@
                             <input type="text" class="form-control" placeholder="Height" aria-label="Username" name="Height" value="1000px"
                                 aria-describedby="addon-wrapping">
                         </div>
+                        <br>
+                        <label class="form-check-label">
+                            Possible Mutations
+                        </label>
+                        <br>
+                        <select class="form-select" aria-label="Default select example" name="possible_mutations">
+
+                            {% for element in session["possible_mutations_list"] %}
+                            <option value="{{element}}">{{ element }}</option>
+                            {% endfor %}
+
+                        </select>
+                        <br>
+                        <input type="submit" class="input-group-text" value="Upload">
+                        <br>
                     </form>
                 </div>
             </div>

@@ -15,23 +15,37 @@ socketio = SocketIO(app)
 @app.route("/", methods=["GET","POST"])
 async def index():
     file_path_left = ""
-    
+    session["possible_mutations_list"] = os.listdir("possible_mutations")
     os.system("rm -rf templates/mutation_templates")
     os.system("rm -rf uploads")
-    if "file" in request.files:
+    if "file" in request.files or request.form.get("possible_mutations"):
+        
         os.mkdir("templates/mutation_templates")
         os.mkdir("uploads")
-        file = request.files["file"]
-        file.save(f"uploads/{file.filename}")
-        if ".pdb" in file.filename:
-            view_pdb = nglview.show_structure_file(f"uploads/{file.filename}")
+        file_name = ""
+        if request.form.get("possible_mutations"):
+            file_name = request.form.get("possible_mutations")
+            os.system(f"cp ./possible_mutations/{file_name} ./uploads/")
+        else:
+            file = request.files["file"]
+            file.save(f"uploads/{file.filename}")
+            file_name = file.filename
+
+        if ".pdb" in file_name:
+            is_File_generated = True
+            #print(file_name)
+            while(is_File_generated):
+                is_File_generated  = not (os.path.exists(f"uploads/{file_name}"))
+
+            view_pdb = nglview.show_structure_file(f"uploads/{file_name}")
+            #print(file_name)
             background = request.form.get("Background")
             if background == "Background":
                 view_pdb.background = "black"
-            file_path_left=f"templates/mutation_templates/{file.filename[:-4]}.html"
-            session["file_path"] = f"{file.filename[:-4]}.html"
-            session['file_name'] = f"{file.filename[:-4]}"
-            mutation_name = file.filename[:-4].split("_")[-1]
+            file_path_left=f"templates/mutation_templates/{file_name[:-4]}.html"
+            session["file_path"] = f"{file_name[:-4]}.html"
+            session['file_name'] = f"{file_name[:-4]}"
+            mutation_name = file_name[:-4].split("_")[-1]
             mutation_name = mutation_name[1:-1]
             protein_name = mutation_name[0]
             residue_number = mutation_name[1:]
@@ -40,11 +54,13 @@ async def index():
             file_path_right=f"templates/mutation_no/{file.filename[:-4]}.html"
             nglview.write_html(file_path_right,[view_pdb_right])"""
 
-            await run_maxit(file)
+            await run_maxit(file_name)
+            #print("1")
             is_File_generated = True
             while(is_File_generated):
-                is_File_generated = not (os.path.exists(f"uploads/{file.filename[:-4]}.cif"))
-            await run_json(file)
+                is_File_generated = not (os.path.exists(f"uploads/{file_name[:-4]}.cif"))
+            await run_json(file_name)
+            #print("2")
             residue_dict = {}
             residue_list = []
             cleared_list = []
@@ -53,8 +69,9 @@ async def index():
             
             is_File_generated = True
             while(is_File_generated):
+                #print("2")
                 try:
-                    with open(f"templates/mutation_templates/{file.filename[:-4]}.json","r") as json_file:
+                    with open(f"templates/mutation_templates/{file_name[:-4]}.json","r") as json_file:
                         residue_dict = json.load(json_file)
                         residue_list = list(residue_dict)
                         seq_ids_set = set([])
@@ -224,28 +241,29 @@ def ngl_view_json():
         return render_template(f"mutation_no/{session['json_path']}")
     return render_template("")"""
 
-async def run_maxit(file):
+async def run_maxit(file_name):
     with open("maxit_run.py","w") as maxit_file:
         tmp_list = [
             "import os\n",
             "os.chdir(f'/home/{os.getlogin()}/maxit-v11.100-prod-src/bin')\n",
             "os.environ['RCSBROOT'] = f'/home/{os.getlogin()}/maxit-v11.100-prod-src'\n",
             "os.environ['PATH'] = '$RCSBROOT/bin:$PATH'\n",
-            f"os.popen(f'./maxit -input {os.getcwd()}/{file.filename} -output /home/{os.getlogin()}/Desktop/NglView_website/uploads/{file.filename[:-4]}.cif -o 1')"
+            f"os.popen(f'./maxit -input {os.getcwd()}/uploads/{file_name} -output /home/{os.getlogin()}/Desktop/NglView_website/uploads/{file_name[:-4]}.cif -o 1')"
         ]
+        #print(file_name)
         maxit_file.writelines(tmp_list)
     os.system("python maxit_run.py")
     os.remove("maxit_run.py")
 
-async def run_json(file):
-    mutation_name = file.filename[:-4].split("_")[-1]
+async def run_json(file_name):
+    mutation_name = file_name[:-4].split("_")[-1]
     mutation_name = mutation_name[1:-1]
     protein_name = mutation_name[0]
     residue_number = mutation_name[1:]
     with open("json_run.py","w") as json_file:
         tmp_list = [
             "import os\n",
-            f"os.popen(f'pdbe-arpeggio -s /{protein_name}/{residue_number}/ -o templates/mutation_templates/ uploads/{file.filename[:-4]}.cif')"
+            f"os.popen(f'pdbe-arpeggio -s /{protein_name}/{residue_number}/ -o templates/mutation_templates/ uploads/{file_name[:-4]}.cif')"
         ]
         json_file.writelines(tmp_list)
     os.system("python json_run.py")
