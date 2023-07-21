@@ -25,10 +25,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -37,10 +37,10 @@
         ],
         "distance": 4.47,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -49,10 +49,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -61,10 +61,10 @@
         ],
         "distance": 3.07,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -73,10 +73,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -85,10 +85,10 @@
         ],
         "distance": 4.9,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "N",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -97,10 +97,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -111,10 +111,10 @@
         ],
         "distance": 2.68,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -149,10 +149,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OD1",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -161,10 +161,10 @@
         ],
         "distance": 4.63,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OD1",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -173,10 +173,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "NZ",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -185,10 +185,10 @@
         ],
         "distance": 4.74,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "NZ",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -390,9 +390,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -402,9 +402,9 @@
         "distance": 4.43,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -438,9 +438,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "OE1",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -450,9 +450,9 @@
         "distance": 3.68,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OE1",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -461,10 +461,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "N",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -473,10 +473,10 @@
         ],
         "distance": 4.55,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "N",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -485,10 +485,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -497,10 +497,10 @@
         ],
         "distance": 4.12,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -535,9 +535,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "C",
-            "auth_seq_id": 49,
-            "label_comp_id": "THR",
+            "auth_atom_id": "N",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -547,9 +547,9 @@
         "distance": 3.13,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "N",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "C",
+            "auth_seq_id": 49,
+            "label_comp_id": "THR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -558,10 +558,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "OE1",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -570,10 +570,10 @@
         ],
         "distance": 4.74,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "OE1",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -583,9 +583,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OE1",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -595,9 +595,9 @@
         "distance": 4.59,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "OE1",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -630,10 +630,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -643,10 +643,10 @@
         ],
         "distance": 3.14,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -728,10 +728,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OXT",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -740,10 +740,10 @@
         ],
         "distance": 4.15,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OXT",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -776,10 +776,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -788,10 +788,10 @@
         ],
         "distance": 4.07,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -897,10 +897,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -909,10 +909,10 @@
         ],
         "distance": 4.23,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -995,10 +995,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "N",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1007,10 +1007,10 @@
         ],
         "distance": 4.8,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "N",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1044,9 +1044,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "N",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "OG1",
+            "auth_seq_id": 26,
+            "label_comp_id": "THR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1058,9 +1058,9 @@
         "distance": 3.34,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OG1",
-            "auth_seq_id": 26,
-            "label_comp_id": "THR",
+            "auth_atom_id": "N",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1093,10 +1093,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1106,10 +1106,10 @@
         ],
         "distance": 3.25,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1143,9 +1143,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OE1",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_atom_id": "NZ",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1158,9 +1158,9 @@
         "distance": 2.72,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "NZ",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "OE1",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1194,9 +1194,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OE1",
-            "auth_seq_id": 25,
-            "label_comp_id": "GLU",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1206,9 +1206,9 @@
         "distance": 3.73,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "OE1",
+            "auth_seq_id": 25,
+            "label_comp_id": "GLU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1291,10 +1291,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1303,10 +1303,10 @@
         ],
         "distance": 4.67,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1315,10 +1315,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1328,10 +1328,10 @@
         ],
         "distance": 4.44,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1340,10 +1340,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
+            "auth_asym_id": "B",
             "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1353,10 +1353,10 @@
         ],
         "distance": 4.38,
         "end": {
-            "auth_asym_id": "B",
+            "auth_asym_id": "A",
             "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1389,10 +1389,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1401,10 +1401,10 @@
         ],
         "distance": 4.14,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1463,10 +1463,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1475,10 +1475,10 @@
         ],
         "distance": 4.47,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1487,10 +1487,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "N",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1499,10 +1499,10 @@
         ],
         "distance": 4.42,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "N",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1559,10 +1559,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "NZ",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1573,10 +1573,10 @@
         ],
         "distance": 3.31,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "NZ",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1609,10 +1609,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1621,10 +1621,10 @@
         ],
         "distance": 4.67,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1849,10 +1849,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OXT",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1863,10 +1863,10 @@
         ],
         "distance": 2.81,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OXT",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1876,9 +1876,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "NH2",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1890,9 +1890,9 @@
         "distance": 2.86,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "NH2",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1902,9 +1902,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "NH2",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "C",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1914,9 +1914,9 @@
         "distance": 3.98,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "NH2",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1926,9 +1926,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "NH2",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1938,9 +1938,9 @@
         "distance": 4.68,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "NH2",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1950,9 +1950,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "NH2",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1962,9 +1962,9 @@
         "distance": 4.8,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "NH2",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1974,9 +1974,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "O",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -1986,9 +1986,9 @@
         "distance": 4.26,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2046,24 +2046,24 @@
     {
         "bgn": {
             "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
+            "label_comp_type": "P",
+            "pdbx_PDB_ins_code": " "
+        },
+        "contact": [
+            "proximal"
+        ],
+        "distance": 4.53,
+        "end": {
+            "auth_asym_id": "B",
             "auth_atom_id": "O",
             "auth_seq_id": 24,
             "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
-        "contact": [
-            "proximal"
-        ],
-        "distance": 4.53,
-        "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
-            "label_comp_type": "P",
-            "pdbx_PDB_ins_code": " "
-        },
         "interacting_entities": "INTRA_NON_SELECTION",
         "type": "atom-atom"
     },
@@ -2095,8 +2095,8 @@
         "bgn": {
             "auth_asym_id": "B",
             "auth_atom_id": "C",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_seq_id": 23,
+            "label_comp_id": "TRP",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2107,8 +2107,8 @@
         "end": {
             "auth_asym_id": "B",
             "auth_atom_id": "C",
-            "auth_seq_id": 23,
-            "label_comp_id": "TRP",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2118,9 +2118,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "C",
+            "auth_seq_id": 23,
+            "label_comp_id": "TRP",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2130,9 +2130,9 @@
         "distance": 4.41,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 23,
-            "label_comp_id": "TRP",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2142,9 +2142,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "N",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2156,9 +2156,9 @@
         "distance": 3.29,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2192,9 +2192,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "NH2",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2204,9 +2204,9 @@
         "distance": 4.88,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "NH2",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "N",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2216,9 +2216,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "N",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2228,9 +2228,9 @@
         "distance": 4.25,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2288,9 +2288,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "C",
+            "auth_seq_id": 23,
+            "label_comp_id": "TRP",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2300,9 +2300,9 @@
         "distance": 3.12,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 23,
-            "label_comp_id": "TRP",
+            "auth_atom_id": "N",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2311,9 +2311,9 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 26,
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
             "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
@@ -2323,9 +2323,9 @@
         ],
         "distance": 4.18,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 26,
             "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
@@ -2359,9 +2359,9 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 26,
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
             "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
@@ -2372,9 +2372,9 @@
         ],
         "distance": 4.43,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
+            "auth_asym_id": "B",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 26,
             "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
@@ -2409,9 +2409,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2421,9 +2421,9 @@
         "distance": 4.83,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2433,9 +2433,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2445,9 +2445,9 @@
         "distance": 4.98,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2457,9 +2457,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2469,9 +2469,9 @@
         "distance": 4.72,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2481,9 +2481,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "C",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2493,9 +2493,9 @@
         "distance": 4.71,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "C",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2505,9 +2505,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "C",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2517,9 +2517,9 @@
         "distance": 4.57,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "C",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2649,9 +2649,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2661,9 +2661,9 @@
         "distance": 4.85,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CE1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2696,10 +2696,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2708,10 +2708,10 @@
         ],
         "distance": 4.65,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2720,10 +2720,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2733,10 +2733,10 @@
         ],
         "distance": 3.7,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2770,9 +2770,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2783,9 +2783,9 @@
         "distance": 4.2,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2866,10 +2866,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2878,10 +2878,10 @@
         ],
         "distance": 4.67,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2890,10 +2890,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2903,10 +2903,10 @@
         ],
         "distance": 3.67,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2940,10 +2940,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -2952,10 +2952,10 @@
         ],
         "distance": 3.9,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3014,10 +3014,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3026,10 +3026,10 @@
         ],
         "distance": 3.97,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3038,10 +3038,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3051,10 +3051,10 @@
         ],
         "distance": 3.24,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3063,10 +3063,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3075,10 +3075,10 @@
         ],
         "distance": 4.36,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3112,9 +3112,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3125,9 +3125,9 @@
         "distance": 3.65,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3137,9 +3137,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3150,9 +3150,9 @@
         "distance": 3.69,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3187,8 +3187,8 @@
         "bgn": {
             "auth_asym_id": "B",
             "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3199,30 +3199,6 @@
         "end": {
             "auth_asym_id": "B",
             "auth_atom_id": "O",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
-            "label_comp_type": "P",
-            "pdbx_PDB_ins_code": " "
-        },
-        "interacting_entities": "INTRA_NON_SELECTION",
-        "type": "atom-atom"
-    },
-    {
-        "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
-            "label_comp_type": "P",
-            "pdbx_PDB_ins_code": " "
-        },
-        "contact": [
-            "proximal"
-        ],
-        "distance": 4.58,
-        "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
             "auth_seq_id": 24,
             "label_comp_id": "LYS",
             "label_comp_type": "P",
@@ -3234,9 +3210,33 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CB",
+            "auth_atom_id": "C",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
+            "label_comp_type": "P",
+            "pdbx_PDB_ins_code": " "
+        },
+        "contact": [
+            "proximal"
+        ],
+        "distance": 4.58,
+        "end": {
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
             "auth_seq_id": 26,
             "label_comp_id": "LEU",
+            "label_comp_type": "P",
+            "pdbx_PDB_ins_code": " "
+        },
+        "interacting_entities": "INTRA_NON_SELECTION",
+        "type": "atom-atom"
+    },
+    {
+        "bgn": {
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 23,
+            "label_comp_id": "TRP",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3246,9 +3246,9 @@
         "distance": 4.67,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 23,
-            "label_comp_id": "TRP",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3355,9 +3355,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "O",
+            "auth_seq_id": 23,
+            "label_comp_id": "TRP",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3368,9 +3368,9 @@
         "distance": 3.28,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 23,
-            "label_comp_id": "TRP",
+            "auth_atom_id": "N",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3380,9 +3380,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "C",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3392,9 +3392,9 @@
         "distance": 4.68,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3501,9 +3501,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 25,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "N",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3513,9 +3513,9 @@
         "distance": 4.23,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "C",
+            "auth_seq_id": 25,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3549,9 +3549,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CD",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3561,9 +3561,9 @@
         "distance": 4.81,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CD",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3573,9 +3573,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CZ",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3585,9 +3585,9 @@
         "distance": 3.54,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CZ",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3597,9 +3597,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3609,9 +3609,9 @@
         "distance": 4.99,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3647,9 +3647,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CZ",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "C",
+            "auth_seq_id": 24,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3659,9 +3659,9 @@
         "distance": 4.73,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 24,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "CZ",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3719,9 +3719,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CZ",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3731,9 +3731,9 @@
         "distance": 4.91,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CZ",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3790,10 +3790,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3803,10 +3803,10 @@
         ],
         "distance": 4.19,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3816,9 +3816,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "C",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3828,9 +3828,9 @@
         "distance": 4.77,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3839,10 +3839,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3851,10 +3851,10 @@
         ],
         "distance": 4.78,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3863,10 +3863,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3875,10 +3875,10 @@
         ],
         "distance": 4.9,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3887,10 +3887,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
+            "auth_asym_id": "B",
             "auth_atom_id": "C",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3899,10 +3899,10 @@
         ],
         "distance": 4.59,
         "end": {
-            "auth_asym_id": "B",
+            "auth_asym_id": "A",
             "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3936,9 +3936,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 26,
-            "label_comp_id": "LEU",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -3948,9 +3948,9 @@
         "distance": 3.93,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_atom_id": "O",
+            "auth_seq_id": 26,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4008,10 +4008,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CB",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4020,10 +4020,10 @@
         ],
         "distance": 4.51,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CB",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4056,10 +4056,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 54,
+            "label_comp_id": "LEU",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4068,10 +4068,10 @@
         ],
         "distance": 4.23,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 54,
-            "label_comp_id": "LEU",
+            "auth_asym_id": "B",
+            "auth_atom_id": "N",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4080,10 +4080,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4092,10 +4092,10 @@
         ],
         "distance": 3.73,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4177,9 +4177,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "N",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4189,9 +4189,9 @@
         "distance": 3.32,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_atom_id": "C",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4321,9 +4321,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "C",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4333,9 +4333,9 @@
         "distance": 4.65,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4345,9 +4345,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "N",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4358,9 +4358,9 @@
         "distance": 3.47,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4371,8 +4371,8 @@
         "bgn": {
             "auth_asym_id": "B",
             "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4383,8 +4383,8 @@
         "end": {
             "auth_asym_id": "B",
             "auth_atom_id": "O",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4441,10 +4441,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4454,10 +4454,10 @@
         ],
         "distance": 3.36,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4466,10 +4466,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4478,10 +4478,10 @@
         ],
         "distance": 4.6,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4586,10 +4586,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4598,10 +4598,10 @@
         ],
         "distance": 4.4,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4610,10 +4610,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CD1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "O",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4622,10 +4622,10 @@
         ],
         "distance": 4.6,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CD1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4635,9 +4635,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "SD",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4647,9 +4647,9 @@
         "distance": 4.73,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_atom_id": "SD",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4658,10 +4658,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "C",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4670,10 +4670,10 @@
         ],
         "distance": 4.26,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4682,10 +4682,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4694,10 +4694,10 @@
         ],
         "distance": 4.58,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4707,9 +4707,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_atom_id": "OH",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4719,9 +4719,9 @@
         "distance": 4.66,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "OH",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4730,10 +4730,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "N",
+            "auth_seq_id": 28,
+            "label_comp_id": "ARG",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4742,10 +4742,10 @@
         ],
         "distance": 4.95,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "N",
-            "auth_seq_id": 28,
-            "label_comp_id": "ARG",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4851,9 +4851,9 @@
     {
         "bgn": {
             "auth_asym_id": "A",
-            "auth_atom_id": "C",
-            "auth_seq_id": 49,
-            "label_comp_id": "THR",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4863,9 +4863,9 @@
         "distance": 4.32,
         "end": {
             "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_atom_id": "C",
+            "auth_seq_id": 49,
+            "label_comp_id": "THR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4900,8 +4900,8 @@
         "bgn": {
             "auth_asym_id": "A",
             "auth_atom_id": "C",
-            "auth_seq_id": 49,
-            "label_comp_id": "THR",
+            "auth_seq_id": 51,
+            "label_comp_id": "LYS",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -4912,8 +4912,8 @@
         "end": {
             "auth_asym_id": "A",
             "auth_atom_id": "C",
-            "auth_seq_id": 51,
-            "label_comp_id": "LYS",
+            "auth_seq_id": 49,
+            "label_comp_id": "THR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5018,10 +5018,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "ND2",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5030,10 +5030,10 @@
         ],
         "distance": 4.83,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "ND2",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5066,10 +5066,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
+            "auth_asym_id": "B",
             "auth_atom_id": "CA",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5078,10 +5078,10 @@
         ],
         "distance": 4.88,
         "end": {
-            "auth_asym_id": "B",
+            "auth_asym_id": "A",
             "auth_atom_id": "CA",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5139,10 +5139,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OXT",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CG",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5151,10 +5151,10 @@
         ],
         "distance": 3.6,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CG",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OXT",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5164,9 +5164,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "C",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5176,9 +5176,9 @@
         "distance": 4.66,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_atom_id": "C",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5188,9 +5188,9 @@
     {
         "bgn": {
             "auth_asym_id": "B",
-            "auth_atom_id": "O",
-            "auth_seq_id": 27,
-            "label_comp_id": "PRO",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5200,9 +5200,9 @@
         "distance": 4.65,
         "end": {
             "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_atom_id": "O",
+            "auth_seq_id": 27,
+            "label_comp_id": "PRO",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5211,10 +5211,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OXT",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE1",
+            "auth_seq_id": 100,
+            "label_comp_id": "TYR",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5223,10 +5223,10 @@
         ],
         "distance": 4.53,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE1",
-            "auth_seq_id": 100,
-            "label_comp_id": "TYR",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OXT",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5259,10 +5259,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "CA",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5271,10 +5271,10 @@
         ],
         "distance": 4.62,
         "end": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "CA",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5283,10 +5283,10 @@
     },
     {
         "bgn": {
-            "auth_asym_id": "B",
-            "auth_atom_id": "OXT",
-            "auth_seq_id": 29,
-            "label_comp_id": "ASN",
+            "auth_asym_id": "A",
+            "auth_atom_id": "CE",
+            "auth_seq_id": 50,
+            "label_comp_id": "MET",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },
@@ -5295,10 +5295,10 @@
         ],
         "distance": 4.95,
         "end": {
-            "auth_asym_id": "A",
-            "auth_atom_id": "CE",
-            "auth_seq_id": 50,
-            "label_comp_id": "MET",
+            "auth_asym_id": "B",
+            "auth_atom_id": "OXT",
+            "auth_seq_id": 29,
+            "label_comp_id": "ASN",
             "label_comp_type": "P",
             "pdbx_PDB_ins_code": " "
         },

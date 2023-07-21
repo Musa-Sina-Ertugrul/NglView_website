@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify, make_response
+from flask_geolocation import GeoManager, current_geo
 from flask_socketio import SocketIO
 import nglview
 import os
@@ -7,13 +8,21 @@ import asyncio
 import threading
 import time
 import json
+import ipaddress
+import requests
+from datetime import datetime
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "my_key"
 socketio = SocketIO(app)
-
+enterance_key = set([])
 @app.route("/", methods=["GET","POST"])
 async def index():
+    dt = datetime.now()
+    if request.remote_addr not in enterance_key:
+        req = requests.get('https://api.ipgeolocation.io/ipgeo?apiKey=c2a0dbe5081b47118d9e059b72aa708d'+'&ip=' + request.remote_addr)
+        print(req.json()["country_name"])
+        enterance_key.add(request.remote_addr)
     file_path_left = ""
     session["possible_mutations_list"] = os.listdir("possible_mutations")
     os.system("rm -rf templates/mutation_templates")
@@ -184,31 +193,11 @@ async def index():
         return redirect(url_for("ngl_view_pdb"))
 
     return render_template("base.html")
-"""
+
 @socketio.on('disconnect')
 def disconnect_delete_files():
-    is_File_generated = True
-    while(is_File_generated):
-        try:
-            os.remove(f"uploads/{session['file_name']}.pdb")
-            is_File_generated = False
-        except:
-            continue
-    is_File_generated = True
-    while(is_File_generated):
-        try:
-            os.remove(f"uploads/{session['file_name']}.cif")
-            is_File_generated = False
-        except:
-            continue
-    is_File_generated = True
-    while(is_File_generated):
-        try:
-            os.remove(f"templates/mutation_templates/{session['file_name']}.json")
-            is_File_generated = False
-        except:
-            continue
-"""
+    enterance_key.remove(request.remote_addr)
+
 """
 @app.route("/after_upload", methods=["GET","POST"])
 def after_upload():
