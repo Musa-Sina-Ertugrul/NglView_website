@@ -92,8 +92,7 @@ void update_db(string country){
                     i++;
                 }
                 remove(countriesPath);
-                string path = countriesPath;
-                ofstream outfile(path+"countries.txt",ofstream::binary);
+                ofstream outfile(countriesPath,ofstream::binary);
                 outfile.write(buffer,size);
                 outfile.close();
                 number.clear();
@@ -117,8 +116,7 @@ void update_db(string country){
                 tmp_i++;
             }
             remove(countriesPath);
-            string path = countriesPath;
-            ofstream outfile(path+"/countries.txt",ofstream::binary);
+            ofstream outfile(countriesPath,ofstream::binary);
             outfile.write(new_buffer,size);
             outfile.close();
             number.clear();
@@ -140,8 +138,14 @@ void update_db(string country){
     delete[] jumping_indexes;
     infile.close();
 }
-
+/*
 int main(){
     update_db("TURKEY");
     return 0;
+}
+*/
+
+PYBIND11_MODULE(update_db,m){
+    m.doc() = "This module have been created by https://github.com/Musa-Sina-Ertugrul \nThis module has only one function that update countries.txt \naccording to individual entries to PROT-ON website";
+    m.def("update_db",&update_db,"function takes name of country as uppercase then icrement its number by 1. Then do necessery changes in file");
 }

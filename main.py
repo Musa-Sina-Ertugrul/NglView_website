@@ -11,6 +11,7 @@ import json
 import ipaddress
 import requests
 from datetime import datetime
+from update_db import update_db
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "my_key"
@@ -18,11 +19,11 @@ socketio = SocketIO(app)
 enterance_key = set([])
 @app.route("/", methods=["GET","POST"])
 async def index():
-    dt = datetime.now()
     if request.remote_addr not in enterance_key:
         req = requests.get('https://api.ipgeolocation.io/ipgeo?apiKey=c2a0dbe5081b47118d9e059b72aa708d'+'&ip=' + request.remote_addr)
-        print(req.json()["country_name"])
+        country_name =req.json()["country_name"].upper()
         enterance_key.add(request.remote_addr)
+        update_db(country_name)
     file_path_left = ""
     session["possible_mutations_list"] = os.listdir("possible_mutations")
     os.system("rm -rf templates/mutation_templates")
